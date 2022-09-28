@@ -2,7 +2,7 @@
 #Вариант 2
 print("Привет, эта программа определяет количество нечётных цифр в твоём числе!
 Напиши своё число: ")
-global i = parse(Int128,readline())
+i = parse(Int128,readline())
 d = 0
 for j = 1:10000
     if i < 1
@@ -13,6 +13,6 @@ for j = 1:10000
              global d += 1
         end
     end
-    i = div(i,10)
+    global i = div(i,10)
 end
 println(d)
