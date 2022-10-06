@@ -1,0 +1,6 @@
+println("Введите подряд через пробел 20 чисел:")
+nums = map((x) -> parse(Int64, x), split(readline()))
+a = findmax(nums)
+b = findmin(nums)
+println(a)
+println(b)
