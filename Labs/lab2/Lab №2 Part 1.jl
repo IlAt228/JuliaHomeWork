@@ -1,4 +1,4 @@
-##Lab. №2 Part 1 
+#Lab. №2 Part 1 
 #Вариант 2
 function max(nums)
     ind = 1
